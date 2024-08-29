@@ -9,7 +9,7 @@ import {
 } from './actions';
 import './App.css';
 
-const App = () => {
+function App() { // Change to function declaration
   const display = useSelector((state) => state.display);
   const dispatch = useDispatch();
 
@@ -53,6 +53,6 @@ const App = () => {
       </div>
     </div>
   );
-};
+}
 
 export default App;
