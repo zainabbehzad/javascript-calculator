@@ -151,29 +151,29 @@ h1:hover {
 
 @media (max-width: 600px) {
   .calculator {
-    height: auto; /* Allow height to adjust */
-    padding: 10px; /* Add padding */
+    height: auto;
+    padding: 10px;
   }
 
   h1 {
-    font-size: 30px; /* Smaller font size */
+    font-size: 30px;
     align-items: center;
     justify-content: center;
     margin-left: 20px;
   }
 
   button {
-    font-size: 20px; /* Smaller button font size */
-    min-height: 50px; /* Adjust button height */
+    font-size: 20px;
+    min-height: 50px;
   }
 
   .input,
   .result {
-    font-size: 30px; /* Smaller font size for input/result */
-    height: 30px; /* Adjust height */
+    font-size: 30px;
+    height: 30px;
   }
-  
+
   .keys {
-    grid-template-columns: repeat(4, 1fr); /* Keep 4 columns */
+    grid-template-columns: repeat(4, 1fr);
   }
 }
