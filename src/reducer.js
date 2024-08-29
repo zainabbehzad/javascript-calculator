@@ -27,8 +27,7 @@ import {
       return 'Error';
     }
   };
-  
-  // Reducer function
+
   const reducer = (state = initialState, action) => {
     switch (action.type) {
       case ADD_DIGIT: {
