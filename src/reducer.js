@@ -15,8 +15,8 @@ const initialState = {
 const operators = ['+', '-', '*', '/'];
 
 const cleanInput = (input) => input
-    .replace(/([+\-*/])\s*-/g, '$1 -')
-    .replace(/([+\-*/])\s*([+*/])/g, '$2');
+  .replace(/([+\-*/])\s*-/g, '$1 -')
+  .replace(/([+\-*/])\s*([+*/])/g, '$2');
 
 const calculateResult = (expression) => {
   try {
