@@ -27,7 +27,8 @@ const calculateResult = (expression) => {
   }
 };
 
-const reducer = (state = initialState, action) => {
+// eslint-disable-next-line default-param-last
+const reducer = function (state = initialState, action) {
   switch (action.type) {
     case ADD_DIGIT: {
       const newDigit = action.payload;
