@@ -1,3 +1,4 @@
+import { evaluate } from 'mathjs';
 import {
   ADD_DIGIT,
   ADD_OPERATOR,
@@ -5,7 +6,6 @@ import {
   CALCULATE,
   CLEAR,
 } from './actions';
-import { evaluate } from 'mathjs';
 
 const initialState = {
   display: '0',
@@ -14,8 +14,7 @@ const initialState = {
 
 const operators = ['+', '-', '*', '/'];
 
-const cleanInput = (input) =>
-  input
+const cleanInput = (input) => input
     .replace(/([+\-*/])\s*-/g, '$1 -')
     .replace(/([+\-*/])\s*([+*/])/g, '$2');
 
@@ -89,7 +88,7 @@ const reducer = (state = initialState, action) => {
 
     case CLEAR:
       return initialState;
-  
+
     default:
       return state;
   }

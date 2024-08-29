@@ -4,19 +4,15 @@ export const SET_DECIMAL = 'SET_DECIMAL';
 export const CALCULATE = 'CALCULATE';
 export const CLEAR = 'CLEAR';
 
-export const addDigit = (digit) => {
-  return {
-    type: ADD_DIGIT,
-    payload: digit,
-  };
-};
+export const addDigit = (digit) => ({
+  type: ADD_DIGIT,
+  payload: digit,
+});
 
-export const addOperator = (operator) => {
-  return {
-    type: ADD_OPERATOR,
-    payload: operator,
-  };
-};
+export const addOperator = (operator) => ({
+  type: ADD_OPERATOR,
+  payload: operator,
+});
 
 export const setDecimal = () => ({
   type: SET_DECIMAL,
