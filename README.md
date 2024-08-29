@@ -5,7 +5,8 @@ Project Description 📝
 The JavaScript Calculator is a web application built using React that allows users to perform basic arithmetic operations. Users can input numbers and operators, and the app will instantly calculate and display the result. This tool is perfect for anyone needing a simple and efficient way to perform calculations. 💻📝🚀
 
 Demo 📸
-![Uploading Screenshot (189).png…]()
+![Screenshot (189)](https://github.com/user-attachments/assets/a015ead1-e23c-4403-875c-ac5012b9aae4)
+
 
 
 
