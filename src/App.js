@@ -9,7 +9,7 @@ import {
 } from './actions';
 import './App.css';
 
-function App = () => {
+const App = () => {
   const display = useSelector((state) => state.display);
   const dispatch = useDispatch();
 
