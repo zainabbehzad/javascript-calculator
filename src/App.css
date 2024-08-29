@@ -148,3 +148,32 @@ h1:hover {
     27px 54px 1px #e2e0df,
     28px 56px 1px #e4e3e2;
 }
+
+@media (max-width: 600px) {
+  .calculator {
+    height: auto; /* Allow height to adjust */
+    padding: 10px; /* Add padding */
+  }
+
+  h1 {
+    font-size: 30px; /* Smaller font size */
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+  }
+
+  button {
+    font-size: 20px; /* Smaller button font size */
+    min-height: 50px; /* Adjust button height */
+  }
+
+  .input,
+  .result {
+    font-size: 30px; /* Smaller font size for input/result */
+    height: 30px; /* Adjust height */
+  }
+  
+  .keys {
+    grid-template-columns: repeat(4, 1fr); /* Keep 4 columns */
+  }
+}
